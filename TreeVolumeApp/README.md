@@ -11,8 +11,8 @@ This Shiny app predicts the volume of a tree based on its girth using a linear r
 ## 🚀 Run the App
 
 Deployed via shinyapps.io:  
-👉 [Live App Link](http://kenfuquay3.shinyapps.io/tree-volume)  
-🔗  actual app link
+👉 [Live App Link](https://kenziefuquay22.shinyapps.io/TreeVolumeApp/)  
+🔗  Actual app link
 
 ## 📁 Files
 
