@@ -2,13 +2,13 @@ library(shiny)
 
 shinyUI(fluidPage(
   
-  # App Title
+  # App title
   titlePanel("Tree Volume Estimator"),
   
-  # Layout with sidebar and main panel
+  # Sidebar layout
   sidebarLayout(
     
-    # Sidebar with input widgets
+    # Sidebar panel for inputs
     sidebarPanel(
       sliderInput("girthInput",
                   label = "Select Tree Girth (inches):",
@@ -22,10 +22,10 @@ shinyUI(fluidPage(
                     value = TRUE)
     ),
     
-    # Main panel for plot and output
+    # Main panel for outputs
     mainPanel(
       plotOutput("treePlot"),
-      h4("Predicted Tree Volume:"),
+      h4("Predicted Tree Volume (cubic feet):"),
       textOutput("volumeOut")
     )
   )
